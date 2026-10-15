@@ -3,6 +3,8 @@
 A one-header `dbg()` macro for C. It prints the file, line, function and value to your terminal, picks the
 right `printf` format for the type, and compiles to nothing when it's off.
 
+![A C file that calls dbg() twice, and the two lines it prints to stderr when run](example-screenshot.png)
+
 ## Install
 
 ```bash
